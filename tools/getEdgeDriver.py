@@ -33,7 +33,7 @@ def download_edgedriver(version, platform, output_dir="."):
         raise ValueError(f"Unsupported platform: {platform}")
         
     download_platform = platform_map[platform]
-    base_url = f"https://msedgedriver.azureedge.net/{version}/"
+    base_url = f"https://msedgedriver.microsoft.com/{version}/"
     filename = f"edgedriver_{download_platform}.zip"
     url = base_url + filename
     
