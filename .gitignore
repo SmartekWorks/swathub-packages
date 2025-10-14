@@ -2,3 +2,4 @@ engine
 drivers
 auto-server
 venv
+swathub-packages*.zip
